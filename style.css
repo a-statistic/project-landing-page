@@ -26,6 +26,18 @@ header {
     gap: 10px;
 }
 
+.main-content {
+    min-height: 300px;
+}
+
+button {
+    border-radius: 2px;
+    border: 1px white solid;
+    background-color: #3882F6;
+    color: white;
+    margin: 5px;
+}
+
 .first-el {
     display: flex;
     justify-content: space-evenly;
@@ -60,7 +72,50 @@ header {
 }
 
 
+.third-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
 
+.quote-el {
+    max-width: 400px;
+    
+    
+}
+
+.quote-el > h3 {
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-el > p {
+    text-align: right;
+    
+} 
+
+.fourth-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > button {
+    align-self: flex-end;
+}
 
 footer {
     display: flex;
