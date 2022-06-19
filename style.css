@@ -1,7 +1,10 @@
 body {
     margin: 0;
-    padding: 10px;
     font-family: 'Times New Roman', Times, serif, 'roboto';
+}
+
+img {
+    max-width: 200px;
 }
 
 a {
@@ -21,6 +24,39 @@ header {
 .header-links {
     display: flex;
     gap: 10px;
+}
+
+.first-el {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    
+    
+}
+
+.first-el > img {
+    max-height: 175px;
+}
+
+.signup-el {
+    max-width: 300px;
+}
+
+.second-el {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo > p {
+    max-width: 300px;
+}
+.photo {
+    gap: 15px;
 }
 
 
